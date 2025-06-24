@@ -1,0 +1,294 @@
+[
+  {
+    "id": "8sxf-t34r",
+    "name": "Site Analytics: Catalog Search Terms (ODP Dashboard)",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "City Government",
+    "tags": [
+      "catalog",
+      "search",
+      "terms"
+    ],
+    "columns": [
+      {
+        "field": "Search Term",
+        "datatype": "Text",
+        "description": "The word or phrase the user searched for in the catalog search bar."
+      },
+      {
+        "field": "Value",
+        "datatype": "Number",
+        "description": "The number or searches for the search term for the specified hour and user segment."
+      },
+      {
+        "field": "User Segment",
+        "datatype": "Text",
+        "description": "The type of user that performed the search."
+      },
+      {
+        "field": "Timestamp",
+        "datatype": "Calendar date",
+        "description": "The date and hour (UTC) for the reported catalog search activity."
+      }
+    ],
+    "updatedAt": "2025-05-27T08:17:53.000Z",
+    "format": "filter",
+    "columns_len": 4
+  },
+  {
+    "id": "vdis-e5m8",
+    "name": "Site Analytics: Asset Access (ODP Dashboard)",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "City Government",
+    "tags": [
+      "analytics",
+      "dashboard"
+    ],
+    "columns": [
+      {
+        "field": "Timestamp",
+        "datatype": "Calendar date",
+        "description": "The date and hour (UTC) for the reported asset access activity."
+      },
+      {
+        "field": "Asset Name",
+        "datatype": "Text",
+        "description": "The name of the asset that was accessed."
+      },
+      {
+        "field": "Access Type",
+        "datatype": "Text",
+        "description": "The way in which the asset was accessed."
+      },
+      {
+        "field": "User Segment",
+        "datatype": "Text",
+        "description": "The type of user that performed the action."
+      },
+      {
+        "field": "Asset UID",
+        "datatype": "Text",
+        "description": "The unique identifier for the asset that was accessed."
+      },
+      {
+        "field": "Value",
+        "datatype": "Number",
+        "description": "The number of actions for the specified asset, usage data type, hour and user segment."
+      },
+      {
+        "field": "Asset Type",
+        "datatype": "Text",
+        "description": "The type of asset that was accessed."
+      }
+    ],
+    "updatedAt": "2025-05-27T08:17:08.000Z",
+    "format": "filter",
+    "columns_len": 7
+  },
+  {
+    "id": "jukz-za6j",
+    "name": "Category Tiles",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [
+      {
+        "field": "description_en",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "link",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "icon",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "title_en",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Tile Color",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "order",
+        "datatype": "Number",
+        "description": ""
+      }
+    ],
+    "updatedAt": "2022-08-16T20:04:09.000Z",
+    "format": "dataset",
+    "columns_len": 6
+  },
+  {
+    "id": "s93g-y2ej",
+    "name": "Site Analytics: Referrers (ODP Dashboard)",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "City Government",
+    "tags": [
+      "analytics",
+      "referrer"
+    ],
+    "columns": [
+      {
+        "field": "Asset Name",
+        "datatype": "Text",
+        "description": "The name of the asset that was linked to."
+      },
+      {
+        "field": "Referrer",
+        "datatype": "Text",
+        "description": "The domain the user was on immediately before coming to this domain."
+      },
+      {
+        "field": "Asset UID",
+        "datatype": "Text",
+        "description": "The unique identifier for the asset that was linked to."
+      },
+      {
+        "field": "Value",
+        "datatype": "Number",
+        "description": "The number of referrers to the specified asset, domain origin and hour."
+      },
+      {
+        "field": "Timestamp",
+        "datatype": "Calendar date",
+        "description": "The date and hour (UTC) for the reported referrer activity."
+      }
+    ],
+    "updatedAt": "2025-05-27T08:17:57.000Z",
+    "format": "filter",
+    "columns_len": 5
+  },
+  {
+    "id": "2fur-bdju",
+    "name": "Black Women Viral Suppression",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:46:35.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "gbkv-fqch",
+    "name": "Diagnosed Black Women",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:07:15.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "mw36-kzzs",
+    "name": "Diagnosed Transgender",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T22:53:49.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "dph5-8tqm",
+    "name": "Linkage for Transgender Women",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:38:39.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "dmpy-u8qf",
+    "name": "Linkage Total Population",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:47:36.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "tqfa-wgf6",
+    "name": "Diagnosed Latinx MSM",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:44:38.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "vn9s-r7ug",
+    "name": "Linkage for Black Women",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:47:02.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "7gs5-gs44",
+    "name": "Diagnosed Black MSM",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:42:31.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "kste-w677",
+    "name": "Linkage for Black MSM",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:49:14.000Z",
+    "format": "measure",
+    "columns_len": 0
+  },
+  {
+    "id": "h8yz-qk3z",
+    "name": "Linkage for Latinx MSM",
+    "domain": "data.austintexas.gov",
+    "organization": null,
+    "category": "",
+    "tags": [],
+    "columns": [],
+    "updatedAt": "2022-10-12T23:48:52.000Z",
+    "format": "measure",
+    "columns_len": 0
+  }
+]

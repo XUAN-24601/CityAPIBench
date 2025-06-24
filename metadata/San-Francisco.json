@@ -1,0 +1,269 @@
+[
+  {
+    "id": "667d-aah6",
+    "name": "Invest in Neighborhood Areas",
+    "domain": "data.sfgov.org",
+    "organization": null,
+    "category": "Economy and Community",
+    "tags": [],
+    "columns": [
+      {
+        "field": "Shape_Leng",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "Tel",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Name",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Shape_Area",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "Corridor",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Neighborhd",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Boundary",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "IIN",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Email",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "OBJECTID",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "the_geom",
+        "datatype": "MultiPolygon",
+        "description": ""
+      }
+    ],
+    "updatedAt": "2024-04-10T19:13:01.000Z",
+    "format": "dataset",
+    "columns_len": 11
+  },
+  {
+    "id": "sfnk-6tdn",
+    "name": "Green_Roofs",
+    "domain": "data.sfgov.org",
+    "organization": "City and County of San Francisco Planning Department",
+    "category": "Housing and Buildings",
+    "tags": [
+      "gis",
+      "green",
+      "roofs",
+      "shapefile"
+    ],
+    "columns": [
+      {
+        "field": "Cost_sf",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "Design",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "OBJECTID",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "OtherParty",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Building_U",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "ADDRESS",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Building_N",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Size_sf",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "Installati",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "EdibleGard",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "the_geom",
+        "datatype": "Point",
+        "description": ""
+      },
+      {
+        "field": "Complete",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Public_Acc",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "YearBuilt",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "SolarHotWa",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "SolarElect",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "ConstrType",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Seating",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "RainHarves",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "Cost",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "HabitatCre",
+        "datatype": "Text",
+        "description": ""
+      }
+    ],
+    "updatedAt": "2024-04-10T19:12:57.000Z",
+    "format": "dataset",
+    "columns_len": 21
+  },
+  {
+    "id": "3nje-yn2u",
+    "name": "RPD Parks",
+    "domain": "data.sfgov.org",
+    "organization": null,
+    "category": "Culture and Recreation",
+    "tags": [],
+    "columns": [
+      {
+        "field": "perimeter",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "acres",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "sqft",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "x",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "gis_fd_pk",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "map_park_n",
+        "datatype": "Text",
+        "description": ""
+      },
+      {
+        "field": "y",
+        "datatype": "Number",
+        "description": ""
+      },
+      {
+        "field": "the_geom",
+        "datatype": "MultiPolygon",
+        "description": ""
+      }
+    ],
+    "updatedAt": "2024-04-10T19:12:58.000Z",
+    "format": "dataset",
+    "columns_len": 8
+  },
+  {
+    "id": "bt7b-fdtx",
+    "name": "Elect_StAsmbly_Dists",
+    "domain": "data.sfgov.org",
+    "organization": "City & County of San Francisco",
+    "category": "Geographic Locations and Boundaries",
+    "tags": [],
+    "columns": [
+      {
+        "field": "the_geom",
+        "datatype": "MultiPolygon",
+        "description": ""
+      },
+      {
+        "field": "caassmd",
+        "datatype": "Text",
+        "description": ""
+      }
+    ],
+    "updatedAt": "2024-04-10T19:13:00.000Z",
+    "format": "dataset",
+    "columns_len": 2
+  }
+]
